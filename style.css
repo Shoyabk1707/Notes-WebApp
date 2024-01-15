@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tektur&display=swap");
+
+*{
+    padding:0;
+    margin : 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100%;
+    min-height: 100vh;
+    /* background-color: rgba(68, 245, 201, 0.349); */
+    background: #269277;
+    background: linear-gradient(to bottom, #269277 31%, #42f0c4 100%);
+
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 90px;
+    
+}
+
+.logo{
+    background-color: rgba(38, 146, 119, 0.726);
+    color: white;
+    height: 60px;
+    overflow: hidden;
+    font-family: 'Tektur', cursive;
+}
+
+.logo-text{
+    margin: 5px 0 0 50px;
+}
+
+.note{
+    width: 350px;
+    height: 400px;
+    margin: 15px;
+    margin-left: 50px;
+    margin-top: 50px;
+    border-radius: 10px;
+    
+    background: rgba(253, 253, 253, 0.295);
+    box-shadow: 0 4px 10px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 5.5px );
+    -webkit-backdrop-filter: blur( 5.5px );
+    border-radius: 10px;
+    
+    /* filter: drop-shadow(5px 5px 0px #000000d7)    */
+}
+
+.tool{
+    width: 100%;
+    height: 35px;
+    background-color: rgba(20, 82, 67, 0.726);
+    color: white;
+    padding: 5px;
+    display: flex;
+    justify-content: end;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.tool i{
+    margin: 5px 15px 5px 0;
+    cursor: pointer;
+    /* padding: 20px; */
+    font-size: 0.7rem;
+}
+
+.tool .title{
+    width: 200px;
+    margin-right: 125px;
+    background-color: rgb(39, 66, 68);
+    border: none;
+    text-transform: capitalize;
+    font-size: 1.4rem;
+    color: rgb(155, 155, 155);
+    font-weight: 550;
+    
+}
+
+textarea{
+    padding: 10px;
+    border: none;
+    width: 100%;
+    height: 100%;
+    resize: none;
+    font-size: 1rem;
+    border-radius: 20px;
+    background-color: transparent;
+}
+
+textarea:focus{
+    /* border: none; */
+    outline: 0;
+}
+
+#add{
+    position: fixed;
+    right: 10px;
+    top : 10px;
+    width: 110px;
+    height: 40px;
+    background-color: black;
+    color: aliceblue;
+    font-weight: 800;
+    border-radius: 10px;
+}
+
+#add:hover{
+    background-color: aliceblue;
+    color: black;
+    border: none;
+    box-shadow: 0px 0px 3px black;
+}
