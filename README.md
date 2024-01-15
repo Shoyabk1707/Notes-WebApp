@@ -16,11 +16,10 @@ Welcome to the Notes Web Application! This simple web app allows you to manage y
 
 ## Getting Started
 
-1. Clone the repository: `git clone https://github.com/Shoyab1707/Notes.gitt`
+1. Clone the repository: `git clone https://github.com/Shoyabk1707/Notes.git`
 2. Open `index.html` in your preferred web browser.
 3. Start managing your notes!
- You can try out Ciplerly by visiting: [click here ](https://shoyab1707.github.io/Notes/)
-Or Visit : [click here](https://chipper-valkyrie-d0db7b.netlify.app/)
+ You can try out by visiting: [click here ](https://shoyabk1707.github.io/Notes-WebApp/)
    
 ## Usage
 
